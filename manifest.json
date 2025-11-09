@@ -1,0 +1,43 @@
+{
+  "name": "TugasKu - Aplikasi Manajemen Tugas",
+  "short_name": "TugasKu",
+  "description": "Aplikasi manajemen tugas sederhana dengan fitur pengingat deadline",
+  "version": "1.3.0",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#3B82F6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "id",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "my-icon.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["productivity", "education"],
+  "screenshots": [
+    {
+      "src": "splash.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ],
+  "permissions": [
+    "notifications"
+  ]
+}
